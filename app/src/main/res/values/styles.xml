@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="InputFormStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/green_rounded_hollow_rect</item>
+        <item name="android:layout_height">@dimen/standrad_row_height</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingLeft">16dp</item>
+    </style>
+
+    <style name="BaseButton" parent="Widget.AppCompat.Button">
+        <item name="android:layout_height">@dimen/standrad_row_height</item>
+        <item name="android:layout_width">44dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="BaseButton.Green">
+        <item name="android:background">@drawable/green_btn_background</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <style name="Title">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="Subtitle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+</resources>

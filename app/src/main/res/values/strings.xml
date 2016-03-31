@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Milestone</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_date_of_birth">Birth date</string>
+    <string name="input_child_lastname">Lastname</string>
+    <string name="input_child_firstname">Firstname</string>
+    <string name="input_child_middlename_optional">Middlename</string>
+    <string name="input_child_gender">Gender</string>
+    <string name="error_empty_input">Please don\'t leave this field blank.</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+    <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@color/colorPrimary"/>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/avatar"
+            android:orientation="vertical"
+            android:layout_marginLeft="12dp">
+
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/avatar"
+                android:orientation="horizontal">
+            <TextView
+                    style="@style/Title"
+                    android:id="@+id/firstname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/avatar"
+                    android:text="Sample"/>
+
+            <TextView
+                    style="@style/Title"
+                    android:id="@+id/gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="@color/colorPrimary"
+                    android:text="Sample"/>
+        </LinearLayout>
+
+        <TextView
+                style="@style/Subtitle"
+                android:id="@+id/phonenumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/avatar"
+                android:text="Sample"/>
+
+        <TextView
+                style="@style/Subtitle"
+                android:id="@+id/maritalstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/avatar"
+                android:textColor="@color/gray"
+                android:text="married"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
